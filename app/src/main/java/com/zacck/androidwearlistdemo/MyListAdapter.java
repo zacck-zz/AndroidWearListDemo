@@ -10,13 +10,13 @@ import android.widget.TextView;
 /**
  * Created by Zacck on 3/1/2016.
  */
-public final class Adapter extends WearableListView.Adapter {
+public final class MyListAdapter extends WearableListView.Adapter {
     private String[] mDataset;
     private final Context mContext;
     private final LayoutInflater mInflater;
 
     // Provide a suitable constructor (depends on the kind of dataset)
-    public Adapter(Context context, String[] dataset) {
+    public MyListAdapter(Context context, String[] dataset) {
         mContext = context;
         mInflater = LayoutInflater.from(context);
         mDataset = dataset;

@@ -2,9 +2,7 @@ package com.zacck.androidwearlistdemo;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.support.wearable.view.WatchViewStub;
 import android.support.wearable.view.WearableListView;
-import android.widget.TextView;
 
 public class MainActivity extends Activity implements WearableListView.ClickListener {
 
@@ -19,9 +17,9 @@ public class MainActivity extends Activity implements WearableListView.ClickList
             // Get the list component from the layout of the activity
             WearableListView listView =
             (WearableListView) findViewById(R.id.mWearList);
-    
+
             // Assign an adapter to the list
-            listView.setAdapter(new Adapter(this, elements));
+            listView.setAdapter(new MyListAdapter(this, elements));
 
             // Set a click listener
             listView.setClickListener(this);
