@@ -1,4 +1,4 @@
-<com.example.android.support.wearable.notifications.WearableListItemLayout
+<com.zacck.androidwearlistdemo.WearableListItemLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:gravity="center_vertical"
     android:layout_width="match_parent"
@@ -18,4 +18,4 @@
         android:fontFamily="sans-serif-condensed-light"
         android:lineSpacingExtra="-4sp"
         android:textSize="16sp"/>
-</com.example.android.support.wearable.notifications.WearableListItemLayout>
+</com.zacck.androidwearlistdemo.WearableListItemLayout>
